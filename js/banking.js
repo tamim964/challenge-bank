@@ -16,6 +16,7 @@ function balanceMoney(amount, check) {
     const previousBalance = document.getElementById('balance-total')
     const previousBalanceText = previousBalance.innerText
     const previousBalanceAmount = parseFloat(previousBalanceText)
+
     if (check == true) {
         const balanceAmount = previousBalanceAmount + amount
         previousBalance.innerText = balanceAmount
